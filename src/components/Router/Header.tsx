@@ -1,6 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import {PAGE_CHAT_PATH, PAGE_USERS_PATH} from "./Router";
+import {PAGE_CHAT_PATH, PAGE_USERS_PATH, PAGE_MESSAGES_PATH} from "./Router";
 
 const Header: React.FC = () => {
 
@@ -17,6 +17,7 @@ const Header: React.FC = () => {
         >
             <NavLink to={PAGE_USERS_PATH}>Users</NavLink>
             <NavLink to={PAGE_CHAT_PATH}>Chat</NavLink>
+            <NavLink to={PAGE_MESSAGES_PATH}>Messages</NavLink>
         </div>
     );
 };
