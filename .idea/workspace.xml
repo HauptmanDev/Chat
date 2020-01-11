@@ -2,17 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b3506f-c03e-4225-a32b-87fff68c507c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Chats/ChatPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MainComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Router/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/base-url.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-0-common/assets/images/loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-0-common/preloader/Common.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-0-common/preloader/Preloader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-1-ui/SignIn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-1-ui/SignInContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-1-ui/SignInPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-1-ui/sign-in-1-ui-styles/SignIn.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-2-bll/signInActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-2-bll/signInHook.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-2-bll/signInInitialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-2-bll/signInReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-2-bll/signInSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-2-bll/signInThunks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-2-sign-in/sign-in-3-dal/SignInAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-1-ui/Register.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-1-ui/RegisterContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-1-ui/RegisterPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-2-bll/registerActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-2-bll/registerInitialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-2-bll/registerReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-2-bll/registerSelectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-2-bll/registerThunks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-3-register/register-3-dal/RegisterAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-5-helpers/cookies/cookies.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-5-helpers/password/passwordCoding.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-5-helpers/validators/validator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-1-ui/Neko.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-1-ui/NekoContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-1-ui/NekoPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-2-bll/nekoActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-2-bll/nekoInitialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-2-bll/nekoReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-2-bll/nekoThunks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-6-neko/neko-3-dal/NekoAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-7-boolean/boolean-2-bll/booleanActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-7-boolean/boolean-2-bll/booleanInitialState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-7-boolean/boolean-2-bll/booleanReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/neko-7-boolean/boolean-2-bll/booleanThunks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/store.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +66,24 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Router" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="Q:\IT-kam\Ignat\chat_project\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\Original\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-1\192.7142.35\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\it-incubator\Chat\src\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\it-incubator\Chat\src" />
+      <recent name="E:\it-incubator\Chat\src\components\store" />
+      <recent name="E:\it-incubator\Chat\src\components" />
+      <recent name="E:\it-incubator\Chat\src\components\Router" />
       <recent name="Q:\IT-kam\Ignat\chat_project\src\components\Router" />
-      <recent name="Q:\IT-kam\Ignat\chat_project\src\components" />
-      <recent name="Q:\IT-kam\Ignat\chat_project\src\components\store" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578757870409</updated>
       <workItem from="1578757871873" duration="2482000" />
+      <workItem from="1578760913297" duration="1317000" />
     </task>
     <servers />
   </component>
@@ -98,7 +136,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
