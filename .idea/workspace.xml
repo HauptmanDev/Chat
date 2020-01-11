@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22b3506f-c03e-4225-a32b-87fff68c507c" name="Default Changelist" comment="">
+    <list default="true" id="22b3506f-c03e-4225-a32b-87fff68c507c" name="Default Changelist" comment="Added buto.">
+      <change afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/User.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersThunks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersThunks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/Users.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +31,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/neko-8-users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/neko-8-users/users-ui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,11 +46,11 @@
       <recent name="E:\it-incubator\Chat\src\components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\it-incubator\Chat\src\components\neko-8-users\users-ui" />
       <recent name="E:\it-incubator\Chat\src\components\neko-8-users" />
       <recent name="E:\it-incubator\Chat\src\components\neko-8-users\users-bll" />
       <recent name="E:\it-incubator\Chat\src" />
       <recent name="E:\it-incubator\Chat\src\components\store" />
-      <recent name="E:\it-incubator\Chat\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578757870409</updated>
       <workItem from="1578757871873" duration="2482000" />
-      <workItem from="1578760913297" duration="4841000" />
+      <workItem from="1578760913297" duration="6197000" />
     </task>
     <task id="LOCAL-00001" summary="Added register/login/profile pages.">
       <created>1578762362120</created>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578765165894</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Thunk.">
+      <created>1578765816968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578765816968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +144,7 @@
     <MESSAGE value="Added register/login/profile pages." />
     <MESSAGE value="Added ui and bll template." />
     <MESSAGE value="Added API request and action/reducer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added API request and action/reducer." />
+    <MESSAGE value="Added Thunk." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Thunk." />
   </component>
 </project>

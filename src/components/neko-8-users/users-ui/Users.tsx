@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {IAppStore} from "../../store/store";
 import {useDispatch, useSelector} from "react-redux";
 import {getUsers} from "../users-bll/usersThunks";
+import User from './User';
 
 
 const UsersPage: React.FC = () => {
@@ -11,9 +12,7 @@ const UsersPage: React.FC = () => {
     }, []);
     const usersArray = useSelector((store: IAppStore) => store.users.users);
 
-    const users = usersArray.map(u => <div
-        style={{margin: '20px', border: '1px solid black'}}
-    >{u._id} - {u.email}</div>);
+    const users = usersArray.map((u, index) => <User u={u} key={index}/>);
 
     return (
         <div>
