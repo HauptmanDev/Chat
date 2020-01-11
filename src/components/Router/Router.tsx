@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Redirect} from "react-router-dom";
-import Users from './../Users/Users';
+import Users from '../neko-8-users/users-ui/Users';
 import Chat from './../Chats/ChatPage';
 import SignInPage from "../neko-2-sign-in/sign-in-1-ui/SignInPage";
 import NekoPage from "../neko-6-neko/neko-1-ui/NekoPage";
