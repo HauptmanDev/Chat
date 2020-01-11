@@ -1,17 +1,20 @@
 import {ThunkAction, ThunkDispatch} from "redux-thunk";
-import {IUsersActions} from "./usersActions";
+import {IUsersActions, setUsers} from "./usersActions";
 import {IAppStore} from "../../store/store";
+import {UsersAPI} from "../users-dal/UsersAPI";
 
 type Return = void;
 type ExtraArgument = {};
 type IGetStore = () => IAppStore;
 
 
-export const getUsers = (email: string, password: string): ThunkAction<Return, IAppStore, ExtraArgument, IUsersActions> =>
+export const getUsers = (): ThunkAction<Return, IAppStore, ExtraArgument, IUsersActions> =>
     async (dispatch: ThunkDispatch<IAppStore, ExtraArgument, IUsersActions>, getStore: IGetStore) => {
         // dispatch(addBoolean({name: LOGIN_IS_LOADING, value: true}));
         try {
-            // const response = await SignInAPI.login(email, passwordCoding(password), rememberMe);
+            const response = await UsersAPI.getUsers();
+            console.log(response);
+            dispatch(setUsers(response.data.users))
             // dispatch(addBoolean({name: LOGIN_IS_LOADING, value: false}));
             // if (response.data.error) {
             //     dispatch(addBoolean({name: LOGIN_ERROR, value: true, message: response.data.error}));

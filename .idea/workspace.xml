@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b3506f-c03e-4225-a32b-87fff68c507c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-dal/UsersAPI.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersActions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersInitialState.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersInitialState.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersReducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersThunks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-bll/usersThunks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/Users.tsx" afterDir="false" />
     </list>
@@ -95,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578757870409</updated>
       <workItem from="1578757871873" duration="2482000" />
-      <workItem from="1578760913297" duration="4179000" />
+      <workItem from="1578760913297" duration="4841000" />
     </task>
     <task id="LOCAL-00001" summary="Added register/login/profile pages.">
       <created>1578762362120</created>
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578764349874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added API request and action/reducer.">
+      <created>1578765165894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578765165894</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added register/login/profile pages." />
     <MESSAGE value="Added ui and bll template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ui and bll template." />
+    <MESSAGE value="Added API request and action/reducer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added API request and action/reducer." />
   </component>
 </project>
