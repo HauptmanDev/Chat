@@ -11,7 +11,6 @@ const UsersPage: React.FC = () => {
         style={{margin: '20px', border: '1px solid black'}}
     >{u._id} - {u.email}</div>);
 
-
     return (
         <div>
             {users}

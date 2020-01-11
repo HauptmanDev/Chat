@@ -7,7 +7,7 @@ type ExtraArgument = {};
 type IGetStore = () => IAppStore;
 
 
-export const getChats = (email: string, password: string): ThunkAction<Return, IAppStore, ExtraArgument, IUsersActions> =>
+export const getUsers = (email: string, password: string): ThunkAction<Return, IAppStore, ExtraArgument, IUsersActions> =>
     async (dispatch: ThunkDispatch<IAppStore, ExtraArgument, IUsersActions>, getStore: IGetStore) => {
         // dispatch(addBoolean({name: LOGIN_IS_LOADING, value: true}));
         try {
