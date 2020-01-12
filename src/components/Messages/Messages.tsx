@@ -17,17 +17,16 @@ const Messages: React.FC = () => {
         }
       }
 
-    // useEffect(scrollToBottom, [messages]);
+    useEffect(scrollToBottom, [messages]);
 
     const onSendMessage = () => {
         dispatch(sendMessageSuccess('it-kamasutra'))
-        scrollToBottom()
     }
 
     return (
         <div className={'messagesBlock'}>
-            <div className={'messages'} style={{ height: '200px', overflowY: 'scroll' }}>{messages.map(m =>
-                <Message key={m.id} body={m.body} />)}
+            <div className={'messages'} style={{ width: '600px', height: '300px', overflowY: 'scroll' }}>
+                {messages.map(m => <Message key={m.id} body={m.body} isOwn={m.isOwn} />)}
                 <div ref={messagesEndRef}></div>
             </div>
             <button onClick={onSendMessage}>Send</button>

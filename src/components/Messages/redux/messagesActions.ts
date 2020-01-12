@@ -6,6 +6,6 @@ export type MessagesActionsType =
     | sendMessageAction
 
 export type sendMessageAction = {
-    type: typeof SEND_MESSAGE,
+    type: typeof SEND_MESSAGE
     body: string
 }

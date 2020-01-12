@@ -4,7 +4,7 @@ import { messagesInitialState } from './messagesInitialState'
 export const messagesReducer = (state = messagesInitialState, action: MessagesActionsType) => {
     switch (action.type) {
         case SEND_MESSAGE:
-            return { ...state, messages: [ ...state.messages, {id: '4', body: action.body}]  }
+            return { ...state, messages: [ ...state.messages, {id: '9', body: action.body, isOwn: true}]  }
         default: return state
     }
 }
