@@ -15,7 +15,7 @@ const UsersPage: React.FC = () => {
     const users = usersArray.map((u, index) => <User u={u} key={index}/>);
 
     return (
-        <div>
+        <div style={{display: 'flex', flexWrap: 'wrap', margin: '10px'}}>
             {users}
         </div>
     )

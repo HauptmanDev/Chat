@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {IUser} from '../users-bll/usersInitialState';
 import {PAGE_CHAT_PATH} from "../../Router/Router";
 import {Redirect} from "react-router";
+import styles from './User.module.css'
 
 interface IUserProps {
     u: IUser
@@ -17,11 +18,15 @@ const User: React.FC<IUserProps> = ({u}) => {
 
     return (
         isRedirect ? <Redirect to={PAGE_CHAT_PATH + '/messages' + `?_id=${u._id}`}/>
-            : < div style={{margin: '20px', border: '1px solid black'}}>
-                <div style={{margin: '20px', border: '1px solid black'}}>
-                    {u._id}-{u.email}
+            : < div className={styles.wrapper}>
+                <img className={styles.avatar}
+                    src="https://icons-for-free.com/iconfiles/png/512/jedi+master+starwars+yoda+icon-1320166700243190687.png"
+                     alt="User Photo"/>
+                <div className={styles.username}>
+                    {/*{u._id}-*/}
+                    {u.email}
                 </div>
-                <button onClick={() => onSendMessage(u)}>messages</button>
+                <button className={styles.button} onClick={() => onSendMessage(u)}>messages</button>
             </div>
     )
 };
