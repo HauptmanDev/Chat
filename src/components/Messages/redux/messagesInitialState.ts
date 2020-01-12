@@ -3,7 +3,7 @@ export interface IMessagesState {
 }
 
 export interface IMessage {
-    id: string
+    id: number | string
     body: string
     isOwn: boolean
 }
