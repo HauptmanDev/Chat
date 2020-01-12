@@ -8,7 +8,7 @@ import RegisterPage from "../neko-3-register/register-1-ui/RegisterPage";
 
 export const START_GH_PAGES_PATH = '/chats';
 
-export const PAGE_CHAT_PATH = START_GH_PAGES_PATH + '/chat';
+export const PAGE_CHAT_PATH = START_GH_PAGES_PATH + '/private-chats';
 export const PAGE_USERS_PATH = START_GH_PAGES_PATH + '/users';
 export const SIGN_IN_PATH = START_GH_PAGES_PATH + '/sign-in';
 export const REGISTER_PATH = START_GH_PAGES_PATH + '/register';
