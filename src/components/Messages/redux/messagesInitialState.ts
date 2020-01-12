@@ -3,13 +3,14 @@ export interface IMessagesState {
 }
 
 export interface IMessage {
+    id: string
     body: string
 }
 
 export const messagesInitialState: IMessagesState = {
     messages: [
-        {body: 'Hello!'},
-        {body: 'hahahaha'},
-        {body:'hohohoh'}
+        {id: '1', body: 'Hello!'},
+        {id: '2', body: 'hahahaha'},
+        {id: '3', body:'hohohoh'}
     ]
 }

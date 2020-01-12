@@ -1,10 +1,11 @@
 
 
-// export const SET_PRODUCTS = 'SET_PRODUCTS'
+export const SEND_MESSAGE = 'messages/sendMessage'
 
 export type MessagesActionsType =
-    | setProductsAction
+    | sendMessageAction
 
-export type setProductsAction = {
-    type: any
+export type sendMessageAction = {
+    type: typeof SEND_MESSAGE,
+    body: string
 }
