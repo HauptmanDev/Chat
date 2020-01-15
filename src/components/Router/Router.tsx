@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, Redirect} from "react-router-dom";
-import Users from './../Users/Users';
+import Users from '../neko-8-users/users-ui/Users';
 import SignInPage from "../neko-2-sign-in/sign-in-1-ui/SignInPage";
 import NekoPage from "../neko-6-neko/neko-1-ui/NekoPage";
 import RegisterPage from "../neko-3-register/register-1-ui/RegisterPage";
@@ -8,7 +8,7 @@ import ChatsPage from "../neko-9-chats/neko-1-ui/ChatsPage";
 
 export const START_GH_PAGES_PATH = '/chats';
 
-export const PAGE_CHAT_PATH = START_GH_PAGES_PATH + '/chat';
+export const PAGE_CHAT_PATH = START_GH_PAGES_PATH + '/private-chats';
 export const PAGE_USERS_PATH = START_GH_PAGES_PATH + '/users';
 export const SIGN_IN_PATH = START_GH_PAGES_PATH + '/sign-in';
 export const REGISTER_PATH = START_GH_PAGES_PATH + '/register';
