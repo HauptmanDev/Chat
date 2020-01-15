@@ -14,7 +14,6 @@ const App: React.FC = () => {
                     <MainComponent/>
                 </Provider>
             </BrowserRouter>
-
         </div>
     );
 };
