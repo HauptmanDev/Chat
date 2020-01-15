@@ -5,7 +5,6 @@ import {getMe} from '../neko-2-bll/nekoThunks';
 import {useDispatch, useSelector} from "react-redux";
 
 import {Redirect} from 'react-router-dom';
-import {LOGIN_SUCCESS} from "../../neko-2-sign-in/sign-in-2-bll/signInActions";
 import {PROFILE_ERROR, PROFILE_LOADING, profileSetName} from "../neko-2-bll/nekoActions";
 import {SIGN_IN_PATH} from "../../Router/Router";
 import {IAppStore} from "../../store/store";
@@ -27,8 +26,11 @@ const NekoContainer: React.FC = () => {
     }, []);
 
     useEffect(() => {
-        if (!getCookie('token')) setRedirect(true);
-        else setShow(true);
+        if (!getCookie('token')) {
+            setRedirect(true)
+        } else {
+            setShow(true)
+        }
     }, [name]);
 
     // callbacks
@@ -42,20 +44,22 @@ const NekoContainer: React.FC = () => {
     if (redirect) {
         return <Redirect to={SIGN_IN_PATH}/>;
     }
-    if (!show) return (
-        <div
-            style={{
-                height: '80vh',
-                display: 'flex',
-                flexFlow: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: 'orange',
-            }}
-        >
-            Loading...
-        </div>
-    );
+    if (!show) {
+        return (
+            <div
+                style={{
+                    height: '80vh',
+                    display: 'flex',
+                    flexFlow: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    color: 'orange',
+                }}
+            >
+                Profile ok!
+            </div>
+        )
+    }
 
 
     return (<>

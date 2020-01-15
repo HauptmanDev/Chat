@@ -18,9 +18,11 @@ export const getMe = (): ThunkAction<Return, IAppStore, ExtraArgument, IProfileA
         try {
             const data = await ProfileAPI.getMe(token);
             if (data.error) {
+                dispatch(addBoolean({name: PROFILE_LOADING, value: false}));
                 dispatch(addBoolean({name: PROFILE_ERROR, value: true, message: data.error}));
                 setCookie('token', '', -1000); // почему отрицательный?, а не скажем 0.
             } else {
+                dispatch(addBoolean({name: PROFILE_LOADING, value: false}));
                 setCookie('token', data.token, 60 * 60 * 48); //cookie age is 2 days
                 dispatch(profileSetName(data.name));
                 dispatch(addBoolean({name: LOGIN_SUCCESS, value: true}));
