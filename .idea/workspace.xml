@@ -5,6 +5,10 @@
       <change afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/User.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/neko-8-users/users-ui/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chats/ChatPage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/store.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +35,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/neko-9-chats/neko-2-bll" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/neko-8-users/users-ui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\Users\Original\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-1\192.7142.35\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="Q:\IT-kam\Ignat\chat_project\Chat\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,11 +51,14 @@
       <recent name="E:\it-incubator\Chat\src\components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Q:\IT-kam\Ignat\chat_project\Chat\src\components\neko-9-chats\neko-2-bll" />
+      <recent name="Q:\IT-kam\Ignat\chat_project\Chat\src\components" />
       <recent name="E:\it-incubator\Chat\src\components\neko-8-users\users-ui" />
       <recent name="E:\it-incubator\Chat\src\components\neko-8-users" />
       <recent name="E:\it-incubator\Chat\src\components\neko-8-users\users-bll" />
       <recent name="E:\it-incubator\Chat\src" />
       <recent name="E:\it-incubator\Chat\src\components\store" />
+      <recent name="E:\it-incubator\Chat\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -91,6 +99,11 @@
       <option name="presentableId" value="Default" />
       <updated>1578757870409</updated>
       <workItem from="1578757871873" duration="2482000" />
+      <workItem from="1578760913297" duration="1317000" />
+      <workItem from="1578763820936" duration="3526000" />
+      <workItem from="1578813690117" duration="26000" />
+      <workItem from="1579022934745" duration="2365000" />
+      <workItem from="1579102890324" duration="4227000" />
       <workItem from="1578760913297" duration="6197000" />
     </task>
     <task id="LOCAL-00001" summary="Added register/login/profile pages.">

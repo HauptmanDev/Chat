@@ -1,10 +1,10 @@
 import React from 'react';
 import {Route, Redirect} from "react-router-dom";
 import Users from '../neko-8-users/users-ui/Users';
-import Chat from './../Chats/ChatPage';
 import SignInPage from "../neko-2-sign-in/sign-in-1-ui/SignInPage";
 import NekoPage from "../neko-6-neko/neko-1-ui/NekoPage";
 import RegisterPage from "../neko-3-register/register-1-ui/RegisterPage";
+import ChatsPage from "../neko-9-chats/neko-1-ui/ChatsPage";
 
 export const START_GH_PAGES_PATH = '/chats';
 
@@ -23,7 +23,7 @@ const Routes: React.FC = () => {
             <Route path={REGISTER_PATH} render={() => <RegisterPage/>}/>
             <Route path={NEKO_PATH} render={() => <NekoPage/>}/>
             <Route path={PAGE_USERS_PATH} render={() => <Users/>}/>
-            <Route path={PAGE_CHAT_PATH} render={() => <Chat/>}/>
+            <Route path={PAGE_CHAT_PATH} render={() => <ChatsPage/>}/>
         </div>
     );
 };
