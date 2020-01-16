@@ -23,10 +23,11 @@ const Chat: React.FC<IChatProps> = ({chat}) => {
                 height: '50px',
                 display: 'flex',
                 alignItems: "center",
-                width: '300px'
+                width: '300px',
+                border: '1px solid black'
             }}
         >
-            <span>{chat._id} </span>
+            <span>{chat._id}</span>
         </div>
     );
 };
